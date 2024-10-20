@@ -8,7 +8,7 @@
     "solutions": [
       {
         "description": "Решение с использованием хеш-таблицы (сложность O(n))",
-        "file": "1 Two Sum.cs"
+        "file": "1. Two Sum.cs"
       }
     ]
   }
