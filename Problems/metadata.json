@@ -11,5 +11,18 @@
         "file": "1. Two Sum.cs"
       }
     ]
+  },
+  {
+    "title": "20. Valid Parentheses",
+    "difficulty": "easy",
+    "tags": ["stack", "string"],
+    "description": "Проверить, является ли строка валидной, если она состоит только из символов '(', ')', '{', '}', '[' и ']'. Строка валидна, если каждая открывающая скобка имеет соответствующую закрывающую и скобки правильно вложены.",
+    "leetcode_url": "https://leetcode.com/problems/valid-parentheses/",
+    "solutions": [
+      {
+        "description": "Решение с использованием стека для проверки парности скобок (сложность O(n))",
+        "file": "20. Valid Parentheses.cs"
+      }
+    ]
   }
 ]
