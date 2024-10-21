@@ -24,5 +24,18 @@
         "file": "20. Valid Parentheses.cs"
       }
     ]
+  },
+  {
+    "title": "121. Best Time to Buy and Sell Stock",
+    "difficulty": "easy",
+    "tags": ["array", "dynamic programming"],
+    "description": "Найти максимальную прибыль от одной транзакции покупки и продажи акций. В каждый день можно либо купить одну акцию, либо продать, либо ничего не делать.",
+    "leetcode_url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+    "solutions": [
+      {
+        "description": "Решение с использованием итерации по массиву цен и нахождения минимальной цены и максимальной прибыли (сложность O(n))",
+        "file": "121. Best Time to Buy and Sell Stock.cs"
+      }
+    ]
   }
 ]
