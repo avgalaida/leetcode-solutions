@@ -76,5 +76,18 @@
         "file": "125. Valid Palindrome.cs"
       }
     ]
+  },
+  {
+    "title": "242. Valid Anagram",
+    "difficulty": "easy",
+    "tags": ["hash table", "string", "sorting"],
+    "description": "Проверить, являются ли две строки анаграммами. Строки являются анаграммами, если они содержат одинаковые символы в одинаковом количестве.",
+    "leetcode_url": "https://leetcode.com/problems/valid-anagram/",
+    "solutions": [
+      {
+        "description": "Использование хэш-таблицы для подсчета количества символов в каждой строке (сложность O(n))",
+        "file": "242. Valid Anagram.cs"
+      }
+    ]
   }
 ]
