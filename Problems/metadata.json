@@ -63,5 +63,18 @@
         "file": "226. Invert Binary Tree.cs"
       }
     ]
+  },
+  {
+    "title": "125. Valid Palindrome",
+    "difficulty": "easy",
+    "tags": ["two pointers", "string"],
+    "description": "Проверить, является ли строка палиндромом, игнорируя пробелы, знаки препинания и регистр символов.",
+    "leetcode_url": "https://leetcode.com/problems/valid-palindrome/",
+    "solutions": [
+      {
+        "description": "Использование двух указателей для сравнения символов строки с игнорированием не буквенно-цифровых символов (сложность O(n))",
+        "file": "125. Valid Palindrome.cs"
+      }
+    ]
   }
 ]
