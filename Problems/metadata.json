@@ -50,5 +50,18 @@
         "file": "21. Merge Two Sorted Lists.cs"
       }
     ]
+  },
+  {
+    "title": "226. Invert Binary Tree",
+    "difficulty": "easy",
+    "tags": ["tree", "depth-first search", "breadth-first search"],
+    "description": "Инвертировать бинарное дерево, поменяв местами левые и правые дочерние узлы.",
+    "leetcode_url": "https://leetcode.com/problems/invert-binary-tree/",
+    "solutions": [
+      {
+        "description": "Итеративное решение с использованием стека для обхода дерева в глубину и инверсии дочерних узлов (сложность O(n))",
+        "file": "226. Invert Binary Tree.cs"
+      }
+    ]
   }
 ]
