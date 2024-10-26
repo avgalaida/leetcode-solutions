@@ -89,5 +89,83 @@
         "file": "242. Valid Anagram.cs"
       }
     ]
+  },
+  {
+    "title": "704. Binary Search",
+    "difficulty": "easy",
+    "tags": ["array", "binary search"],
+    "description": "Найти индекс целевого значения в отсортированном массиве с использованием бинарного поиска. Если значение не найдено, вернуть -1.",
+    "leetcode_url": "https://leetcode.com/problems/binary-search/",
+    "solutions": [
+      {
+        "description": "Реализация бинарного поиска с использованием цикла для поиска целевого значения (сложность O(log n))",
+        "file": "704. Binary Search.cs"
+      }
+    ]
+  },
+  {
+    "title": "733. Flood Fill",
+    "difficulty": "easy",
+    "tags": ["array", "depth-first search", "breadth-first search"],
+    "description": "Залить область изображения цветом, начиная с заданного пикселя, изменив все соседние пиксели того же цвета на новый цвет.",
+    "leetcode_url": "https://leetcode.com/problems/flood-fill/",
+    "solutions": [
+      {
+        "description": "Итеративное решение с использованием стека для обхода в глубину и замены цветов (сложность O(m * n))",
+        "file": "733. Flood Fill.cs"
+      }
+    ]
+  },
+  {
+    "title": "141. Linked List Cycle",
+    "difficulty": "easy",
+    "tags": ["linked list", "hash table", "two pointers"],
+    "description": "Определить, содержит ли связный список цикл, возвращая true, если цикл существует, и false в противном случае.",
+    "leetcode_url": "https://leetcode.com/problems/linked-list-cycle/",
+    "solutions": [
+      {
+        "description": "Решение с использованием хэш-таблицы для проверки наличия цикла, сохраняя посещенные узлы (сложность O(n))",
+        "file": "141. Linked List Cycle.cs"
+      }
+    ]
+  },
+  {
+    "title": "232. Implement Queue using Stacks",
+    "difficulty": "easy",
+    "tags": ["stack", "design", "queue"],
+    "description": "Реализовать очередь с помощью двух стеков, поддерживая операции добавления, удаления, просмотра элемента и проверки пустоты очереди.",
+    "leetcode_url": "https://leetcode.com/problems/implement-queue-using-stacks/",
+    "solutions": [
+      {
+        "description": "Использование двух стеков для реализации очереди (сложность O(n) для операций pop и peek в текущей реализации)",
+        "file": "232. Implement Queue using Stacks.cs"
+      }
+    ]
+  },
+  {
+    "title": "169. Majority Element",
+    "difficulty": "easy",
+    "tags": ["array", "hash table", "divide and conquer", "sorting"],
+    "description": "Найти элемент, который встречается в массиве более чем ⌊n / 2⌋ раз, где n — размер массива. Гарантируется, что такой элемент существует.",
+    "leetcode_url": "https://leetcode.com/problems/majority-element/",
+    "solutions": [
+      {
+        "description": "Решение с использованием хэш-таблицы для подсчета количества вхождений каждого элемента (сложность O(n))",
+        "file": "169. Majority Element.cs"
+      }
+    ]
+  },
+  {
+    "title": "67. Add Binary",
+    "difficulty": "easy",
+    "tags": ["math", "string", "bit manipulation"],
+    "description": "Сложить две двоичные строки и вернуть результат в виде двоичной строки.",
+    "leetcode_url": "https://leetcode.com/problems/add-binary/",
+    "solutions": [
+      {
+        "description": "Использование цикла для сложения строк побитово с учетом переноса (сложность O(max(n, m)))",
+        "file": "67. Add Binary.cs"
+      }
+    ]
   }
 ]
