@@ -15,32 +15,29 @@ public class MyQueue
 
     public int Pop()
     {
-        if (st2.Count == 0)
-        {
-            while (st1.Count > 0)
-            {
-                st2.Push(st1.Pop());
-            }
-        }
-
+        St1ToSt2();
         return st2.Pop();
     }
 
     public int Peek()
     {
-        if (st2.Count == 0)
-        {
-            while (st1.Count > 0)
-            {
-                st2.Push(st1.Pop());
-            }
-        }
-
+        St1ToSt2();
         return st2.Peek();
     }
 
     public bool Empty()
     {
         return st1.Count == 0 && st2.Count == 0;
+    }
+
+    private void St1ToSt2()
+    {
+        if (st2.Count == 0)
+        {
+            while (st1.Count > 0)
+            {
+                st2.Push(st1.Pop());
+            }
+        }
     }
 }
