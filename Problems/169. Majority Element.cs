@@ -1,15 +1,16 @@
-public class Solution {
+public class Solution
+{
     public int MajorityElement(int[] nums)
     {
-        var ht = new Dictionary<int, int>();
-        
-        var majority = nums[0];
-        foreach (var elem in nums)
+        var count = 0;
+        var candidate = nums[0];
+
+        foreach (var num in nums)
         {
-            if (!ht.TryAdd(elem, 1)) ht[elem]++;
-            majority = ht[elem] > ht[majority] ? elem : majority;
+            if (count == 0) candidate = num;
+            count += num == candidate ? 1 : -1;
         }
-        
-        return majority;
+
+        return candidate;
     }
 }
