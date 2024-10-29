@@ -11,34 +11,24 @@ public class MyQueue {
     }
     
     public int Pop() {
-        while (st1.Count > 0){
-            st2.Push(st1.Pop());
+        if (st2.Count == 0) {
+            while (st1.Count > 0) {
+                st2.Push(st1.Pop());
+            }
         }
-
-        var val = st2.Pop();
-
-        while (st2.Count > 0){
-            st1.Push(st2.Pop());
-        }
-
-        return val;
+        return st2.Pop();
     }
     
     public int Peek() {
-        while (st1.Count > 0){
-            st2.Push(st1.Pop());
+        if (st2.Count == 0) {
+            while (st1.Count > 0) {
+                st2.Push(st1.Pop());
+            }
         }
-
-        var val = st2.Peek();
-
-        while (st2.Count > 0){
-            st1.Push(st2.Pop());
-        }
-        
-        return val;
+        return st2.Peek();
     }
     
     public bool Empty() {
-        return st1.Count == 0;
+        return st1.Count == 0 && st2.Count == 0;
     }
 }
