@@ -145,12 +145,12 @@
   {
     "title": "169. Majority Element",
     "difficulty": "easy",
-    "tags": ["array", "hash table", "divide and conquer", "sorting"],
+    "tags": ["array", "divide and conquer", "Boyer-Moore Voting Algorithm"],
     "description": "Найти элемент, который встречается в массиве более чем ⌊n / 2⌋ раз, где n — размер массива. Гарантируется, что такой элемент существует.",
     "leetcode_url": "https://leetcode.com/problems/majority-element/",
     "solutions": [
       {
-        "description": "Решение с использованием хэш-таблицы для подсчета количества вхождений каждого элемента (сложность O(n))",
+        "description": "Решение с использованием алгоритма Бойера-Мура для нахождения элемента большинства с линейной временной сложностью и O(1) памяти.",
         "file": "169. Majority Element.cs"
       }
     ]
