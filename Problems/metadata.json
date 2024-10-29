@@ -137,7 +137,7 @@
     "leetcode_url": "https://leetcode.com/problems/implement-queue-using-stacks/",
     "solutions": [
       {
-        "description": "Использование двух стеков для реализации очереди (сложность O(n) для операций pop и peek в текущей реализации)",
+        "description": "Реализация очереди с использованием двух стеков, где операции pop и peek оптимизированы для минимального перемещения элементов (сложность O(1) амортизированная).",
         "file": "232. Implement Queue using Stacks.cs"
       }
     ]
