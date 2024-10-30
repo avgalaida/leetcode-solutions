@@ -180,5 +180,18 @@
         "file": "278. First Bad Version.cs"
       }
     ]
+  },
+  {
+    "title": "383. Ransom Note",
+    "difficulty": "easy",
+    "tags": ["array", "string"],
+    "description": "Проверить, можно ли создать строку ransomNote, используя символы строки magazine, где каждая буква из magazine может быть использована только один раз.",
+    "leetcode_url": "https://leetcode.com/problems/ransom-note/",
+    "solutions": [
+      {
+        "description": "Решение с использованием массива фиксированной длины (26 элементов) для подсчета символов, позволяет эффективно проверить наличие необходимых букв в magazine для составления ransomNote (сложность O(n + m)).",
+        "file": "383. Ransom Note.cs"
+      }
+    ]
   }
 ]
