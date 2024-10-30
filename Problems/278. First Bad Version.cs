@@ -1,6 +1,6 @@
 public class Solution : VersionControl {
     public int FirstBadVersion(int n) {
-        var l = 0;
+        var l = 1;
         var r = n;
 
         while (r >= l){
