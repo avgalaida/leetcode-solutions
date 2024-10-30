@@ -167,5 +167,18 @@
         "file": "67. Add Binary.cs"
       }
     ]
+  },
+  {
+    "title": "278. First Bad Version",
+    "difficulty": "easy",
+    "tags": ["binary search", "interactive"],
+    "description": "Определить первую плохую версию из n версий, используя API IsBadVersion. Гарантируется, что плохая версия существует.",
+    "leetcode_url": "https://leetcode.com/problems/first-bad-version/",
+    "solutions": [
+      {
+        "description": "Реализация бинарного поиска для нахождения первой плохой версии, минимизирующая количество вызовов API (сложность O(log n)).",
+        "file": "278. First Bad Version.cs"
+      }
+    ]
   }
 ]
