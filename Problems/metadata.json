@@ -206,5 +206,18 @@
         "file": "70. Climbing Stairs.cs"
       }
     ]
+  },
+  {
+    "title": "409. Longest Palindrome",
+    "difficulty": "easy",
+    "tags": ["hash table", "string"],
+    "description": "Найти длину самой длинной строки-палиндрома, которую можно составить из символов строки s. Палиндром может содержать максимум один символ с нечетной частотой.",
+    "leetcode_url": "https://leetcode.com/problems/longest-palindrome/",
+    "solutions": [
+      {
+        "description": "Использование хэш-таблицы для подсчета частоты символов, затем построение наибольшей палиндромной длины, с учётом символов с чётной и нечётной частотой (сложность O(n)).",
+        "file": "409. Longest Palindrome.cs"
+      }
+    ]
   }
 ]
