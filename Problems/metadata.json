@@ -193,5 +193,18 @@
         "file": "383. Ransom Note.cs"
       }
     ]
+  },
+  {
+    "title": "70. Climbing Stairs",
+    "difficulty": "easy",
+    "tags": ["dynamic programming", "math"],
+    "description": "Найти количество уникальных способов достичь вершины лестницы с n ступенями, при условии, что за один шаг можно подниматься на одну или две ступени.",
+    "leetcode_url": "https://leetcode.com/problems/climbing-stairs/",
+    "solutions": [
+      {
+        "description": "Оптимизированное решение с динамическим программированием, использующее два переменных для хранения предыдущих результатов, что сокращает использование памяти (сложность O(n)).",
+        "file": "70. Climbing Stairs.cs"
+      }
+    ]
   }
 ]
