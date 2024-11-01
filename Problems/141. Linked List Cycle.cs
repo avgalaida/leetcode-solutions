@@ -1,26 +1,20 @@
-public class Solution {
+public class Solution
+{
     public bool HasCycle(ListNode head)
     {
-        var d = new Dictionary<ListNode, int>();
+        if (head == null || head.next == null) return false;
 
-        var curr = head;
-        var pos = 0;
-        
-        while (curr != null)
+        var slow = head;
+        var fast = head.next;
+
+        while (fast != null && fast.next != null)
         {
-            if (d.ContainsKey(curr))
-            {
-                
-                if (d[curr] < pos ) return true;
-            }
-            else
-            {
-                d.Add(curr,pos);
-            }
-            pos += 1;
-            curr = curr.next;
+            if (slow == fast) return true;
+            
+            slow = slow.next;
+            fast = fast.next.next;
         }
-        
+
         return false;
     }
 }
