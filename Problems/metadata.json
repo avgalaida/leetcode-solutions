@@ -119,12 +119,12 @@
   {
     "title": "141. Linked List Cycle",
     "difficulty": "easy",
-    "tags": ["linked list", "hash table", "two pointers"],
-    "description": "Определить, содержит ли связный список цикл, возвращая true, если цикл существует, и false в противном случае.",
+    "tags": ["linked list", "two pointers"],
+    "description": "Проверить, содержит ли связный список цикл. Если цикл существует, вернуть true, иначе — false.",
     "leetcode_url": "https://leetcode.com/problems/linked-list-cycle/",
     "solutions": [
       {
-        "description": "Решение с использованием хэш-таблицы для проверки наличия цикла, сохраняя посещенные узлы (сложность O(n))",
+        "description": "Использование алгоритма двух указателей (черепаха и заяц), чтобы определить наличие цикла за линейное время и с константной памятью (сложность O(n), память O(1)).",
         "file": "141. Linked List Cycle.cs"
       }
     ]
