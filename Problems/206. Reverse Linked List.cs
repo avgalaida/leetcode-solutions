@@ -2,27 +2,17 @@ public class Solution
 {
     public ListNode ReverseList(ListNode head)
     {
-        if (head == null) return null;
-
-        var st = new Stack<ListNode>();
-        
-        while (head.next != null)
-        {
-            st.Push(head);
-            head = head.next;
-        }
-
+        ListNode prev = null;
         var curr = head;
 
-        while (st.Count > 0)
+        while (curr != null)
         {
-            var node = st.Pop();
-            curr.next = node;
-            curr = curr.next;
+            var next = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = next;
         }
-        
-        curr.next = null;
-        
-        return head;
+
+        return prev;
     }
 }
