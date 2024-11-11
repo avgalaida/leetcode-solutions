@@ -219,5 +219,18 @@
         "file": "409. Longest Palindrome.cs"
       }
     ]
+  },
+  {
+    "title": "206. Reverse Linked List",
+    "difficulty": "easy",
+    "tags": ["linked list", "two pointers"],
+    "description": "Развернуть односвязный список, изменяя указатели каждого узла так, чтобы они указывали в обратном порядке.",
+    "leetcode_url": "https://leetcode.com/problems/reverse-linked-list/",
+    "solutions": [
+      {
+        "description": "Итеративное решение с использованием указателей для разворота списка, что позволяет обойтись без дополнительной памяти (сложность O(n), память O(1)).",
+        "file": "206. Reverse Linked List.cs"
+      }
+    ]
   }
 ]
