@@ -245,5 +245,18 @@
         "file": "876. Middle of the Linked List.cs"
       }
     ]
+  },
+  {
+    "title": "104. Maximum Depth of Binary Tree",
+    "difficulty": "easy",
+    "tags": ["tree", "depth-first search", "stack"],
+    "description": "Найти максимальную глубину бинарного дерева, где глубина — это количество узлов на пути от корня до самого глубокого листа.",
+    "leetcode_url": "https://leetcode.com/problems/maximum-depth-of-binary-tree/",
+    "solutions": [
+      {
+        "description": "Использование итеративного обхода в глубину (DFS) с помощью стека для подсчета глубины, сохраняя текущую глубину каждого узла в стеке (сложность O(n), память O(n) в худшем случае).",
+        "file": "104. Maximum Depth of Binary Tree.cs"
+      }
+    ]
   }
 ]
