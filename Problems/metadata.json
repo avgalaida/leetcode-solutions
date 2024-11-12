@@ -232,5 +232,18 @@
         "file": "206. Reverse Linked List.cs"
       }
     ]
+  },
+  {
+    "title": "876. Middle of the Linked List",
+    "difficulty": "easy",
+    "tags": ["linked list", "two pointers"],
+    "description": "Найти средний узел в односвязном списке. Если в списке чётное число узлов, вернуть второй из двух средних узлов.",
+    "leetcode_url": "https://leetcode.com/problems/middle-of-the-linked-list/",
+    "solutions": [
+      {
+        "description": "Использование двух указателей для нахождения среднего узла. Указатель `fast` перемещается в два раза быстрее `slow`, что позволяет `slow` оказаться на середине, когда `fast` достигнет конца списка (сложность O(n), память O(1)).",
+        "file": "876. Middle of the Linked List.cs"
+      }
+    ]
   }
 ]
