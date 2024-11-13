@@ -271,5 +271,18 @@
         "file": "217. Contains Duplicate.cs"
       }
     ]
+  },
+  {
+    "title": "543. Diameter of Binary Tree",
+    "difficulty": "easy",
+    "tags": ["tree", "depth-first search", "stack"],
+    "description": "Найти диаметр бинарного дерева, определяемый как длина самого длинного пути между двумя узлами. Путь может или не может проходить через корень.",
+    "leetcode_url": "https://leetcode.com/problems/diameter-of-binary-tree/",
+    "solutions": [
+      {
+        "description": "Решение с использованием двух стеков для итеративного обхода дерева, подсчета глубины для каждого узла и обновления максимального диаметра (сложность O(n) по времени и O(n) по памяти).",
+        "file": "543. Diameter of Binary Tree.cs"
+      }
+    ]
   }
 ]
