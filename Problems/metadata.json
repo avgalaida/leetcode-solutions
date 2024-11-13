@@ -284,5 +284,18 @@
         "file": "543. Diameter of Binary Tree.cs"
       }
     ]
+  },
+  {
+    "title": "53. Maximum Subarray",
+    "difficulty": "medium",
+    "tags": ["array", "dynamic programming", "greedy"],
+    "description": "Найти сумму подмассива с наибольшей суммой в заданном массиве. Подмассив состоит из последовательных элементов массива.",
+    "leetcode_url": "https://leetcode.com/problems/maximum-subarray/",
+    "solutions": [
+      {
+        "description": "Решение с использованием подхода Кадане, где сумма обновляется и сравнивается с максимальной суммой, обнуляясь, если она меньше нуля (сложность O(n), память O(1)).",
+        "file": "53. Maximum Subarray.cs"
+      }
+    ]
   }
 ]
