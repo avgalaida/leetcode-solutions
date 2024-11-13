@@ -258,5 +258,18 @@
         "file": "104. Maximum Depth of Binary Tree.cs"
       }
     ]
+  },
+  {
+    "title": "217. Contains Duplicate",
+    "difficulty": "easy",
+    "tags": ["array", "hash table"],
+    "description": "Проверить, содержит ли массив хотя бы один дублирующийся элемент. Если такой элемент существует, вернуть true, иначе — false.",
+    "leetcode_url": "https://leetcode.com/problems/contains-duplicate/",
+    "solutions": [
+      {
+        "description": "Использование множества для хранения элементов массива и проверка на добавление дубликатов. Если элемент уже присутствует в множестве, возвращаем true. Сложность O(n) по времени и O(n) по памяти.",
+        "file": "217. Contains Duplicate.cs"
+      }
+    ]
   }
 ]
