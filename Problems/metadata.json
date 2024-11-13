@@ -297,5 +297,18 @@
         "file": "53. Maximum Subarray.cs"
       }
     ]
+  },
+  {
+    "title": "3. Longest Substring Without Repeating Characters",
+    "difficulty": "medium",
+    "tags": ["string", "hash table", "sliding window"],
+    "description": "Найти длину самой длинной подстроки в строке s, не содержащей повторяющихся символов.",
+    "leetcode_url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+    "solutions": [
+      {
+        "description": "Решение с использованием метода скользящего окна и словаря для отслеживания индекса последнего появления каждого символа. Обновляет начало окна при обнаружении дубликата (сложность O(n), память O(min(n, m)), где m — количество уникальных символов).",
+        "file": "3. Longest Substring Without Repeating Characters.cs"
+      }
+    ]
   }
 ]
