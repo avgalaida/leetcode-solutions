@@ -310,5 +310,18 @@
         "file": "3. Longest Substring Without Repeating Characters.cs"
       }
     ]
+  },
+  {
+    "title": "15. 3Sum",
+    "difficulty": "medium",
+    "tags": ["array", "two pointers", "sorting"],
+    "description": "Найти все уникальные тройки чисел в массиве nums, сумма которых равна нулю.s",
+    "leetcode_url": "https://leetcode.com/problems/3sum/",
+    "solutions": [
+      {
+        "description": "Решение с использованием сортировки массива и двух указателей для поиска пар, сумма которых с текущим числом равна нулю. Избегает повторений с помощью проверки соседних элементов (сложность O(n^2), память O(1) для результата).",
+        "file": "15. 3Sum.cs"
+      }
+    ]
   }
 ]
