@@ -323,5 +323,18 @@
         "file": "15. 3Sum.cs"
       }
     ]
+  },
+  {
+    "title": "973. K Closest Points to Origin",
+    "difficulty": "medium",
+    "tags": ["array", "quickselect"],
+    "description": "Найти k точек, которые находятся ближе всего к началу координат. Расстояние между точкой и началом координат вычисляется как сумма квадратов её координат.",
+    "leetcode_url": "https://leetcode.com/problems/k-closest-points-to-origin/",
+    "solutions": [
+      {
+        "description": "Решение с использованием алгоритма Quickselect, чтобы найти k ближайших точек с временной сложностью O(n) в среднем и O(n^2) в худшем случае.",
+        "file": "973. K Closest Points to Origin.cs"
+      }
+    ]
   }
 ]
